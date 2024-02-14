@@ -1,0 +1,65 @@
+<div class="calculator">
+    <input type="text" class="result" [value]="result">
+    <div class="buttons">
+        <button (click)="appendToResult('2nd')">2nd</button>
+        <button (click)="appendToResult('π')">π</button>
+        <button (click)="appendToResult('e')">e</button>
+        <button (click)="clear()">C</button>
+        <button (click)="deleteLastDigit()">⌫</button>
+        <button (click)="appendToResult('x²')">x²</button>
+        <button (click)="appendToResult('1/2')">1/2</button>
+        <button (click)="appendToResult('7')">|x|</button>
+        <button (click)="appendToResult('7')">exp</button>
+        <button (click)="appendToResult('7')">mod</button>
+        <button (click)="appendToResult('√')">√</button>
+        <button (click)="appendToResult('7')">7</button>
+        <button (click)="appendToResult('7')">7</button>
+
+
+
+        <button (click)="appendToResult('7')">7</button>
+        <button (click)="appendToResult('7')">7</button>
+
+        <button (click)="clear()">AC</button>
+        <button (click)="deleteLastDigit()">⌫</button>
+        <button (click)="appendToResult('(')">(</button>
+        <button (click)="appendToResult(')')">)</button>
+        <button (click)="appendToResult('^')">^</button>
+        <button (click)="appendToResult('sqrt(')">√</button>
+        <button (click)="appendToResult('sin(')">sin</button>
+        <button (click)="appendToResult('cos(')">cos</button>
+        <button (click)="appendToResult('tan(')">tan</button>
+        <button (click)="appendToResult('csc(')">csc</button>
+        <button (click)="appendToResult('sec(')">sec</button>
+        <button (click)="appendToResult('cot(')">cot</button>
+        <button (click)="appendToResult('asin(')">asin</button>
+        <button (click)="appendToResult('acos(')">acos</button>
+        <button (click)="appendToResult('atan(')">atan</button>
+        <button (click)="appendToResult('sinh(')">sinh</button>
+        <button (click)="appendToResult('cosh(')">cosh</button>
+        <button (click)="appendToResult('tanh(')">tanh</button>
+        <button (click)="appendToResult('csch(')">csch</button>
+        <button (click)="appendToResult('sech(')">sech</button>
+        <button (click)="appendToResult('coth(')">coth</button>
+        <button (click)="appendToResult('e^')">e^</button>
+        <button (click)="appendToResult('ln(')">ln</button>
+        <button (click)="appendToResult('log(')">log</button>
+        <button (click)="appendToResult('!')">!</button>
+        <button (click)="appendToResult('7')">7</button>
+        <button (click)="appendToResult('8')">8</button>
+        <button (click)="appendToResult('9')">9</button>
+        <button (click)="appendToResult('+')">+</button>
+        <button (click)="appendToResult('4')">4</button>
+        <button (click)="appendToResult('5')">5</button>
+        <button (click)="appendToResult('6')">6</button>
+        <button (click)="appendToResult('-')">-</button>
+        <button (click)="appendToResult('1')">1</button>
+        <button (click)="appendToResult('2')">2</button>
+        <button (click)="appendToResult('3')">3</button>
+        <button (click)="appendToResult('*')">X</button>
+        <button (click)="changeSign()">+/-</button>
+        <button (click)="appendToResult('0')">0</button>
+        <button (click)="appendToResult('.')">.</button>
+        <button style="background-color: lightblue;" (click)="calculate()">=</button>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+<h2>Calculadora Basica</h2>
+<div class="calculator">
+    <input type="text" class="result" [value]="result">
+    <div class="buttons">
+        <button (click)="appendToResult('CE')">CE</button>
+        <button (click)="clear()">C</button>
+        <button (click)="deleteLastDigit()">⌫</button>
+        <button (click)="appendToResult('/')">÷</button>
+        <button (click)="appendToResult('7')">7</button>
+        <button (click)="appendToResult('8')">8</button>
+        <button (click)="appendToResult('9')">9</button>
+        <button (click)="appendToResult('*')">X</button>
+        <button (click)="appendToResult('4')">4</button>
+        <button (click)="appendToResult('5')">5</button>
+        <button (click)="appendToResult('6')">6</button>
+        <button (click)="appendToResult('-')">-</button>
+        <button (click)="appendToResult('1')">1</button>
+        <button (click)="appendToResult('2')">2</button>
+        <button (click)="appendToResult('3')">3</button>
+        <button (click)="appendToResult('+')">+</button>
+        <button (click)="changeSign()">+/-</button>
+        <button (click)="appendToResult('0')">0</button>
+        <button (click)="appendToResult('.')">.</button>
+        <button style="background-color: lightblue;" (click)="calculate()">=</button>
+    </div>
+</div>

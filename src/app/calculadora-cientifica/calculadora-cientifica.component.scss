@@ -1,0 +1,38 @@
+.calculator {
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.result {
+    width: 96%;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+.buttons button {
+    flex: 1 0 calc(18% - 5px); /* Ajusta el ancho de los botones aquí */
+    padding: 10px;
+    font-size: 15px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2.5px; /* Añadido para mantener el espacio entre los botones */
+}
+
+
+.buttons button:hover {
+    background-color: #e0e0e0;
+}

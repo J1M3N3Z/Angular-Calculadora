@@ -1,0 +1,23 @@
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 0;
+  height: 65px;
+  font-size: 17px;
+  width: 100%;
+}
+
+.navbar-menu {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.navbar-item {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-item:hover {
+  color:darkcyan;
+}
